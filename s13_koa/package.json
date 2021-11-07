@@ -1,0 +1,24 @@
+{
+  "name": "s13_koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app/scripts/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^9.1.0",
+    "axios": "^0.19.2",
+    "jsonfile": "^6.0.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-combine-routers": "^4.0.2",
+    "koa-compress": "^4.0.1",
+    "koa-static": "^5.0.0",
+    "qs": "^6.9.4"
+  }
+}
